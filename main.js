@@ -16,6 +16,10 @@ function take_snapshot(){
     });
 }
 
-function check() {
+var obj = "Can not recognize";
+var acc = "0%";
 
+function check() {
+    document.getElementById("Obj").innerHTML = obj;
+    document.getElementById("Acc").innerHTML = acc;
 }
