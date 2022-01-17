@@ -15,3 +15,7 @@ function take_snapshot(){
         document.getElementById("result").innerHTML = '<img id="captured_image" src="'+data_uri+'"/>'
     });
 }
+
+function check() {
+
+}
